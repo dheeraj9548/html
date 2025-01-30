@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kapde Bechne Ki Website</title>
+    <link rel="stylesheet" href="shopcss.css">
+    <link rel="stylesheet" href="shopjava.jS">
+    <link rel="stylesheet" href="sattofooter.html">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" >
+
+   
+   
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        color: black;
+    }
+    
+    #box{
+        background-color: #333;
+    color: white;
+    border: none;
+    
+    border-radius: 5px;
+    cursor: pointer;
+    }
+#box:hover {
+    background-color: #555;
+}
+    .container{
+        width: 1140px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .footer content{
+        width: 33.3%;
+    }
+    h3{
+        font-size: 28px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .footer-content p{
+        width: 190px;
+        margin: auto;
+        padding: 7px;
+    }
+    .footer-content ul{
+        text-align: center;
+
+    }
+    .list{
+        padding: 0;
+    }
+    .list li{
+        width: auto;
+        text-align: center;
+        list-style-type: none;
+        padding: 7px;
+        position: relative;
+    }
+    .list li::before{
+        content: "";
+        padding: absolut;
+        transform: translate(-50px,-50%);
+        left: 50px;
+        top: 100%;
+        width: 0;
+        height: 2px;
+        background: white;
+        transition-duration: 5s;
+    }
+    .list li::before{
+        width: 70px;
+    }
+    .social-icons{
+        text-align: center;
+        padding: 0;
+    }
+    .social-icons li{
+display: inline-block;
+text-align: center;
+padding: 5px;
+    }
+    .social-icons i{
+        color: rgb(3, 3, 255);
+        font-size: 25px;
+    }
+    a{
+        text-decoration: none;
+
+    }
+    a:hover{
+        color: #f18930;
+
+    }
+    .social-icons i:hover{
+color: #f18930;
+    }
+    .bottom-bar{
+        background: #181717;
+        text-align: center;
+        padding: 10px;
+        margin-top: 50px;
+    }
+    .bottom-bar p{
+        color: #f18930;
+        margin: 0;
+        font-size: 16px;
+        padding: 7px;
+    }
+    @keyframes image{
+        0%{
+			background-image: url(file:///C:/Users/acer/Pictures/Screenshots/Screenshot%202025-01-29%20075655.png);
+			
+			top: 0px;
+
+
+		}
+		25%{
+            background-image: url(file:///C:/Users/acer/Pictures/Screenshots/Screenshot%202025-01-29%20080102.png);
+			
+			top: 0px;
+
+
+		}
+		50%{
+            background-image: url(file:///C:/Users/acer/Pictures/Screenshots/Screenshot%202025-01-29%20075914.png);
+           
+            top: 0px; 
+		}
+		75%{
+            background-image: url(file:///C:/Users/acer/Pictures/Screenshots/Screenshot%202025-01-29%20075804.png);
+			
+			top: 0px;
+
+		}
+		100%{
+    
+            background-image: url(file:///C:/Users/acer/Pictures/Screenshots/Screenshot%202025-01-29%20080013.png);
+          
+             top: 0px;
+
+		}
+    }
+    .image{
+        width: 100%;
+        height: 300px;
+        position: relative;
+        animation: image 15s 0s infinite;
+    }
+</style>
+<body background="file:///C:/Users/acer/Pictures/Screenshots/Screenshot%202025-01-29%20082235.png">
+   
+    <header>
+        <img src="file:///C:/Users/acer/Pictures/SATTO/IMG-20241205-WA0023.jpg" width="80PX" height="40PX">
+        <h1>SATTO PAIPES & ADHESIVES</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br/>
+    <img class="image">
+    
+
+    <section class="products">
+        <h2>Our Products</h2>
+        <div class="product-card">
+            <img src="file:///C:/Users/acer/Pictures/SATTO/IMG-20241205-WA0003.jpg" alt="upvc paipe">
+            <h3>upvc paipe</h3>
+            <p>₹---</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="file:///C:/Users/acer/Pictures/SATTO/IMG-20241205-WA0002.jpg" alt="cvpc paipe">
+            <h3>cvpc paipe</h3>
+            <p>₹---</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="file:///C:/Users/acer/Pictures/SATTO/IMG-20241205-WA0014.jpg" alt=" pvc Solvent cement">
+            <h3> pvc Solvent cement</h3>
+            <p>₹---</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="file:///C:/Users/acer/Pictures/SATTO/IMG-20241205-WA0012.jpg" alt="cpvc Solvent cement">
+            <h3>cpvc Solvent cement</h3>
+            <p>₹---</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="Tank.jpg" alt="Tank">
+            <h3>Tank</h3>
+            <p>₹---</p>
+            <button>Add to Cart</button>
+        </div>
+       
+        <div class="product-card">
+            <img src="file:///C:/Users/acer/Pictures/SATTO/IMG-20241205-WA0013.jpg" alt="Paipe">
+            <h3>Paipe</h3>
+            <p>₹---</p>
+            <button>Add to Cart</button>
+        </div>
+        
+    </section>
+<br/>
+<br/>
+<div class="container">
+    <div class="footer-container">
+     <h3>
+         Quality Assurance
+     </h3>
+     <p>
+         We maintain high-quality standards from raw material selection to final 
+         inspection, ensuring top performance and reliability.
+     </p>
+    </div>
+    <div class="footer-content">
+     <h3>
+         Innovation and
+     
+         Sustainability
+     </h3>
+     <p>
+         We invest in R&D to introduce eco-friendly technologies and materials,
+          minimizing our environmental footprint through responsible manufacturing.
+     </p>
+
+    </div>
+    <div class="footer-content">
+<h3>
+ Customer Commitment
+</h3>
+<p>
+ Customer satisfaction is paramount at Satto. We provide 
+ customized solutions and reliable support to meet clients' specific needs.
+</p>
+    </div>
+    <div class="footer-content">
+     <h3>
+         Conclusion
+     </h3>
+     <p>
+         Satto is your trusted partner for high-quality pipes, fittings, adhesives, 
+         and water tanks, supporting success in residential, commercial, and infrastructure projects.
+     </p>
+
+    </div>
+     </div>
+     <br/>
+<br/>
+<br/>
+<br/>
+<header>
+    <div class="container">
+        <div class="footer-container">
+           <h3>
+            Contact Us
+           </h3>
+           <p><a href=""><i class="fa-solid fa-envelope"></i>
+            satto917@gmail.com
+        </a>
+     </p>
+           <p><a href=""><i class="fa-solid fa-location-dot"></i>
+            G.T. Road, Nearby Honda Showrom, Bhikampur, Jirollidor, 
+            <p>Aligarh-202140, Uttar Pradesh, India</p>
+            
+            </a></p>
+           <p><a href=""><i class="fa-solid fa-user"></i>
+            SHAILENDRA KUMAR (Owner)
+        </a>
+    </p>
+           <p><a href=""><i class="fa-solid fa-phone"></i>
+            Call 08041014927
+        </a>
+    </p>
+        </div>
+        <div class="footer-content">
+            <h3>
+                Quick Link 
+            </h3>
+            <ul class="list">
+                <li> <a href="">Home</a></li>
+                <li> <a href="">About</a></li>
+                <li> <a href="">Servicess</a></li>
+                <li> <a href="">Products</a></li>
+                <li> <a href="">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-content">
+            <h3>
+                Follow Us
+            </h3>
+            <ul class="social-icons">
+            <li><a href=""><i class="fab fa-facebook"></i></a></li>
+         
+            <li><a href=""><i class="fab fa-whatsapp"></i></a></li>
+            <li><a href=""><i class="fab fa-square-instagram"></i></a></li>
+            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+            <li><a href=""><i class="fab fa-x-twitter"></i></a></li>
+            </ul>
+        </div>
+        <div class="social-content">
+
+            <h3>
+                SATTO
+            </h3>
+            <P><a href="">
+                PIPES & ADHESIVES
+            </P>
+        
+      
+        </div>
+
+
+    </div>
+    <div class="bottom-bar">
+        <p>
+            &Copy: 2024-25 your campany.All rigth reserved 
+        </p>
+    </div>
+</header>
+
+    
+
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
+
+
